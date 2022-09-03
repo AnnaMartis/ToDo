@@ -1,0 +1,67 @@
+.Navbar {
+    display: flex;
+    justify-content: space-around;
+    font-weight: 600;
+}
+
+.Navbar p{
+    display: inline-block;
+    size: 14px;
+}
+
+.Navbar p:hover {
+    text-decoration: underline;
+    text-decoration-color: #2F80ED;
+    cursor: pointer;
+}
+
+.Navbar p.active{
+    text-decoration: underline;
+}
+
+.Line {
+    position: relative;
+    border: 1px solid #BDBDBD;;
+    height: 0px;
+    width: 100%;
+    margin-bottom: 12px;
+}
+
+.AllLine{
+    position: absolute;
+    width: 33.33%; 
+    height: 5px;
+}
+
+.ActiveLine{
+    position: absolute;
+    left: 28%;
+    width: 33.33%; 
+    height: 5px;
+    
+}
+
+.CompletedLine{
+    position: absolute;
+    left: 66.66%;
+    width: 33.33%; 
+    height: 5px;
+}
+
+.AllLine.active{
+    background-color: #2F80ED;
+
+}
+
+.ActiveLine.active{
+    background-color: #2F80ED;
+}
+
+.CompletedLine.active{
+    background-color: #2F80ED;
+}
+
+
+
+
+

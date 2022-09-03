@@ -1,0 +1,53 @@
+.Todo {
+    display: flex;
+    justify-content: space-between;
+    margin-top: .8rem;
+}
+
+.TodoPart input{
+    color: #2F80ED;
+    border-radius: 4px;
+    margin-right: .6rem;
+    cursor: pointer;
+}
+
+.RemoveTodo i {
+  cursor: pointer;
+}
+
+.RemoveTodo i:hover{
+   color: #2F80ED;
+}
+
+.DeleteAll{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.DeleteAll button{
+    padding: .6rem 1rem;
+    background: #EB5757;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.DeleteAll button i{
+    margin-right: .4rem;
+}
+
+.DeleteAll.hide{
+    display: none;
+}
+
+.RemoveTodo.hide{
+    display: none;
+}
+
+.TodoPart.done{
+    text-decoration: line-through;
+}
+
+
